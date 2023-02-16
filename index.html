@@ -14,16 +14,18 @@
     <main>
         <div class="tabuleiro">
             <div class="box box-marcacao">
-                <h2>Pontuação:</h2>
-                <h2>Record:</h2>
+                <h2 id="marca-pontuacao">Pontuação:</h2>
+                <h2 id="marca-record">Record:</h2>
             </div>
             <div class="box box-quadrados">
-                <div class="quadrado tabuleiro_posicao_1"></div>
-                <div class="quadrado tabuleiro_posicao_2"></div>
-                <div class="quadrado tabuleiro_posicao_3"></div>
-                <div class="quadrado tabuleiro_posicao_4"></div>
-                <div class="quadrado tabuleiro_posicao_5"></div>
-                <div class="quadrado tabuleiro_posicao_6"></div>
+                <div class="fileira-superior">
+                    <div class="quadrado tabuleiro_posicao_1" id="1"></div>
+                    <div class="quadrado tabuleiro_posicao_2" id="2"></div>
+                </div>
+                <div class="fileira-inferior">
+                    <div class="quadrado tabuleiro_posicao_3" id="3"></div>
+                    <div class="quadrado tabuleiro_posicao_4" id="4"></div>
+                </div>
             </div>
             <div class="box box-botao">
                 <button class="botao" id="btn">Iniciar</button>
